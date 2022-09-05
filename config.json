@@ -1,0 +1,63 @@
+{
+  "bot-account": {
+    "username": "BOT",		
+    "password": "",			
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "DuGueDarkYT.aternos.me",
+    "port": "43671",	
+    "version": "1.18"
+  },
+
+  "web": {
+    "inventory": true,
+        "port-inv": 3000
+  },
+
+  "ArmorManager": {
+    "auto-equip": true
+  },
+
+  "Dashboard": {
+    "enabled": false
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "Sou um Bot ",
+        "Use 'help' para mostrar meus comandos",
+        "Meu dono é DuGue Dark ",
+        "Inscreva-se no canal! (DuGue Dark) https://youtube.com/c/DuGueDark ",
+        "Visite minha página GitHub! (DuGueDark/FullBot) "
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 1000
+    }
+}
